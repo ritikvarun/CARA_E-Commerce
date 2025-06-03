@@ -1,0 +1,78 @@
+/* single product */
+.productdetails .single-pro-img {
+    width: 40%;
+    margin-right: 50px;
+  }
+  .small-img-group {
+    display: flex;
+    justify-content: center;
+  }
+  .small-img-col {
+    cursor: pointer;
+    margin-right: 3px;
+  }
+  .productdetails {
+    display: flex;
+    margin-top: 20px;
+  }
+  .productdetails .single-pro-details {
+    width: 50%;
+    margin-top: 30px;
+  }
+  .productdetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+  }
+  .productdetails .single-pro-details h2 {
+    font-size: 26px;
+  }
+  .productdetails .single-pro-details select {
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .productdetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+  .productdetails .single-pro-details input:focus {
+    outline: none;
+  }
+  .productdetails .single-pro-details button {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .productdetails .single-pro-details span {
+    line-height: 25px;
+  }
+  .productdetails .single-pro-details p {
+    line-height: 25px;
+    color: gray;
+  }
+  .section-p1{
+    padding: 0 80px;
+  }
+  @media screen and (max-width: 477px) {
+    .productdetails {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    .section-p1 {
+      padding: 0 14px;
+  }
+    .productdetails .single-pro-img {
+      width: 100%;
+      margin-right: 50px;
+    }
+    .productdetails .single-pro-details {
+      width: 100%;
+      margin-top: 30px;
+    }
+  }

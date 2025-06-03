@@ -1,0 +1,10 @@
+.shop-banner{
+    background-image: url(/IMAGE/banner/b1.jpg);
+    height: 40vh;
+    color: white;
+    text-align: center;
+}
+.shop-banner h2{
+padding-top: 6rem;
+    color: white;
+}
